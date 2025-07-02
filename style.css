@@ -1,0 +1,90 @@
+/* Remove margens e preenchimentos padrão de todos os elementos */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #86895d;
+}
+
+h1{
+    color: #0e0c0c;
+    font-size: 40px;
+}
+/* Define estilo para as divs com id title e menu */
+#title, #menu{
+    background-color: #54582f;
+    padding: 15px;
+    text-align: center;
+}
+
+#menu{
+    padding: 10px;
+}
+/* Estiliza os links do menu (estados normal e visitado) */
+#header a:link, #header a:visited{
+    color: #030303;
+    padding: 8px 12px;
+}
+
+/* Estiliza os links ao passar o mouse */
+#header a:hover{
+    color: #6b7030;
+    background-color: #c5d6a1;
+    text-decoration: none;
+    
+}
+
+#front-end{
+    text-align: center;
+    margin-top: 4%;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Estiliza a area onde vai o conteúdo*/
+ #content{
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: #a3a277;
+    border-radius: 50px;
+    width: 1200px;
+    height: 450px;
+    margin-top: 5%;
+    
+}
+
+#summary{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 12%;
+}
+/* Estiliza a imagem */
+.img-content{
+    width: 340px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 5%;
+}
+
+
+/* Estiliza o rodapé */
+#footer{
+      border: 2px solid rgb(4, 54, 4);  
+      padding: 15px;           
+      width: 500px;         
+      margin: 185px auto;      
+      text-align: center;      
+      border-radius: 10px;    
+      background-color: #a0b179;
+      font-size: 20px;    
+}
+ 
+
+
+
+
