@@ -44,12 +44,26 @@ h1{
     font-size: 40px;
     font-family: 'Times New Roman', Times, serif;
 }
+
+@media (max-width:16366px){
+    #minhaformacao{
+        font-size: 35px;
+        margin-top: 10%;
+    }
+}
 /* Estiliza o texto da página*/
 #summary{
     font-size: 25px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-top: 3%;
     padding: 50px;
+}
+
+@media (max-width:1366px){
+    #summary{
+        max-width: 300px;
+        
+    }
 }
 /* Estiliza a area onde vai o conteúdo*/
 #content{
@@ -61,19 +75,29 @@ h1{
     height: 450px;
     margin-top: 4%;
 }
+
+@media (max-width:1366px){
+    #content{
+        width: 450px;
+        height: 550px;
+        margin-top: 20%;
+    }
+}
 /* Estiliza o rodapé */
 #footer{
-     border: 2px solid rgb(4, 54, 4);  
-      padding: 15px;           
-      width: 500px;             
-      text-align: center;      
-      border-radius: 10px;    
-      background-color: #a0b179;
-      font-size: 20px; 
-      margin-top: 30%;
-      margin-left: 28%;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 20px;
+  font-size: 18px;
+  color: #000;
 }
  
+@media (max-width:1366px) {
+    #footer{
+        font-size: 17px;
+    }
+}
 
 
   
