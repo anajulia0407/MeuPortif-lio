@@ -90,17 +90,26 @@ button{
     height: 450px;
     margin-top: 8%;
 }
-    
+
+@media  (max-width: 1366px){
+    #content{
+        margin-top: 45%;
+        width: 400px;
+        border-radius: 15px;    
+}
+}
 /* Estiliza o rodapé */
 #footer{
-      border: 2px solid rgb(4, 54, 4);  
-      padding: 15px;           
-      width: 500px;             
-      text-align: center;      
-      border-radius: 10px;    
-      background-color: #a0b179;
-      font-size: 20px; 
-      margin-top: 10%;
-      margin-left: 40%;
-    
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 20px;
+  font-size: 20px;
+  color: #000;
+}
+ 
+@media (max-width:1366px) {
+    #footer{
+        font-size: 18px;
+    }
 }
